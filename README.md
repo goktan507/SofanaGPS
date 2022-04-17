@@ -11,13 +11,29 @@
 Grand Canyon University is in the heart of Phoenix Arizona, the hottest city in the country. Getting from point A to point B on GCU’s ever-growing developing campus can be a challenge. Currently, GCU operates golf carts to aid students in traversing the campus. Although these golf carts are tremendously helpful, there have been reports from students that they are unable to locate a golf cart promptly when needed. Team Sofana’s goal is to utilize technology and create software that aids students in locating a golf cart so they can arrive at their destination on time.  
 
 ---
-## Features
+## Requirements
 
 ---
-## Hardware
+## Technologies
 
 ---
-## Software
+## Hardware Components
 
 ---
-## System Design
+## Cloud Deployment
+
+---
+## Technical Approach
+
+---
+## Risks & Challanges
+
+- Issues
+- Solution
+
+---
+## Contact
+<table>
+  
+</table>
+
