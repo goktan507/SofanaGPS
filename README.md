@@ -101,6 +101,7 @@
   - Postman \[v9.15.11]
   - Fritzing \[v0.9.9]
   - Swagger \[2.0]
+  - UpTimeRobot Monitoring
   - LucidChart
   - Visual Studio Community 2019
   - VSCode IDE \[v1.66.1]
@@ -108,32 +109,35 @@
 <table>
   <tr align="center">
     <td>
-      <img width="250" src="https://user-images.githubusercontent.com/46502725/163749686-a5e71c2d-cbf6-4fda-848e-66aa401ac7ce.png"/>
+      <img width="300" src="https://user-images.githubusercontent.com/46502725/163749686-a5e71c2d-cbf6-4fda-848e-66aa401ac7ce.png"/>
     </td>
     <td>
-      <img width="250" src="https://user-images.githubusercontent.com/46502725/163749726-8671e0c9-8f23-498a-ae26-57d025012d5f.png"/>
+      <img width="300" src="https://user-images.githubusercontent.com/46502725/163749726-8671e0c9-8f23-498a-ae26-57d025012d5f.png"/>
     </td>
     <td>
-      <img width="250" src="https://user-images.githubusercontent.com/46502725/163749782-af9d2c43-428a-4eca-8c25-91f38cd0cb6c.png"/>
+      <img width="300" src="https://user-images.githubusercontent.com/46502725/163749782-af9d2c43-428a-4eca-8c25-91f38cd0cb6c.png"/>
    </td>
-    <td>
-      <img width="250" src="https://user-images.githubusercontent.com/46502725/163749821-fe70a10c-4ad6-43eb-a80b-7e213cab88d2.png"/>
-      </td>
-      </tr>
-  <tr>
-  </tr>
+  </tr><tr></tr>
   <tr align="center">
     <td align="center">
-      <img width="150"  src="https://user-images.githubusercontent.com/46502725/163749847-f82ca1c2-e3fd-4eeb-aceb-d58dbf6589ae.png"/>
-      </td>
-    <td>
-      <img width="250" src="https://user-images.githubusercontent.com/46502725/163749902-599ec4f6-6ff0-4db5-b8ac-cbb2f401f0d9.png"/>
-      </td>
-    <td>
-      <img width="250" src="https://user-images.githubusercontent.com/46502725/163750038-d6cc7702-0dc3-4229-b589-dbe214418361.png"/>
+      <img width="200"  src="https://user-images.githubusercontent.com/46502725/163749847-f82ca1c2-e3fd-4eeb-aceb-d58dbf6589ae.png"/>
     </td>
     <td>
-      <img width="250" src="https://user-images.githubusercontent.com/46502725/163750598-3e74156e-dcc4-4f50-a103-a25249946e10.png"/>
+      <img width="300" src="https://user-images.githubusercontent.com/46502725/163749902-599ec4f6-6ff0-4db5-b8ac-cbb2f401f0d9.png"/>
+    </td>
+    <td>
+      <img width="300" src="https://user-images.githubusercontent.com/46502725/163750038-d6cc7702-0dc3-4229-b589-dbe214418361.png"/>
+    </td>
+  </tr>
+  <tr></tr><tr>
+    <td>
+      <img width="300" src="https://user-images.githubusercontent.com/46502725/163749821-fe70a10c-4ad6-43eb-a80b-7e213cab88d2.png"/>
+      </td>
+    <td>
+      <img width="300" src="https://user-images.githubusercontent.com/46502725/163750598-3e74156e-dcc4-4f50-a103-a25249946e10.png"/>
+    </td>
+    <td>
+      <img width="300" src="https://user-images.githubusercontent.com/46502725/163754996-d9329b6c-6f1e-47e8-89a8-74c7259d7d3e.png"/>
     </td>
   </tr>
 </table>
@@ -186,7 +190,9 @@ What is CORS?
 
 *** SCREENSHOT OF AZURE CORS ENABLED ***
 
+#### Monitoring
 
+*** UpTimeRobot Screenshot once it monitors for a while ***
 ---
 ## Technical Approach
 
