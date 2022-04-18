@@ -37,6 +37,23 @@
   </tr>
 </table>
 
+## Table of Contents
+- [Introduction]()
+- [Requirements]()
+  - [Functional Requirements]()
+  - [Non-Functional Requirements \[NFRs]]()
+- [Technologies & Tools]()
+- [Hardware Components]()
+- [Cloud Deployment]()
+  - [Frontend (React App) -> Heroku]()
+  - [Backend (API) -> Azure]()
+  - [Cross-Origin Resource Sharing (CORS)]()
+  - [Monitoring]()
+- [Technical Approach]()
+- [Risks & Challanges]()
+- [Contacts]()
+
+
 #### Introduction
  Grand Canyon University is in the heart of Phoenix Arizona, the hottest city in the country. Getting from point A to point B on GCU’s ever-growing developing campus can be a challenge. Currently, GCU operates golf carts to aid students in traversing the campus. Although these golf carts are tremendously helpful, there have been reports from students that they are unable to locate a golf cart promptly when needed. Team Sofana’s goal is to utilize technology and create software that aids students in locating a golf cart so they can arrive at their destination on time.  
 
@@ -150,26 +167,32 @@
   <tr align="center">
     <td>
       ELEGRO UNO R3
-      <img width="250" src="https://user-images.githubusercontent.com/46502725/163751330-4599e1dc-f62d-402c-a9cd-d7a364b4ce48.png"/>
+      <a href="https://www.amazon.com/ELEGOO-Board-ATmega328P-ATMEGA16U2-Compliant/dp/B01EWOE0UU/ref=sr_1_3?crid=1CJX7G5AY2430&keywords=elegoo+uno+r3&qid=1650299807&s=industrial&sprefix=elegoo+uno+r3%2Cindustrial%2C118&sr=1-3"><img width="250" src="https://user-images.githubusercontent.com/46502725/163751330-4599e1dc-f62d-402c-a9cd-d7a364b4ce48.png"/></a>
     </td>
     <td>
       NEO - 6M GPS Module
-      <img width="300" src="https://user-images.githubusercontent.com/46502725/163751425-2d76818a-49ef-42c3-aa94-6e8b50353ddc.png"/>
+      <a href="https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT?th=1"><img width="300" src="https://user-images.githubusercontent.com/46502725/163751425-2d76818a-49ef-42c3-aa94-6e8b50353ddc.png"/></a>
     </td>
     <td>
       ESP8266 WIFI Module
-      <img width="250" src="https://user-images.githubusercontent.com/46502725/163751582-26c44c0e-19ff-4a13-8e12-0707ad2c43b6.png"/>
+      <a href="https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B081CSJV2V/ref=sr_1_1_sspa?gclid=Cj0KCQjwmPSSBhCNARIsAH3cYgYx3fEWciGZxthskgqY5JzyWAUpI1U3WiM6KPYfYrmq4E_Db7HhWyUaAuhgEALw_wcB&hvadid=173542103964&hvdev=c&hvlocphy=9029979&hvnetw=g&hvqmt=e&hvrand=7631398929246534702&hvtargid=kwd-85230109726&keywords=esp8266%2Bwifi%2Bmodule&qid=1650299768&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFPUFNHTjRJWkZPWDMmZW5jcnlwdGVkSWQ9QTAzMjcxNTMzMzE4OVJSVjQzTUVBJmVuY3J5cHRlZEFkSWQ9QTA1NjI2OTMxTlZMQjVKN0lROUMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1"><img width="250" src="https://user-images.githubusercontent.com/46502725/163751582-26c44c0e-19ff-4a13-8e12-0707ad2c43b6.png"/></a>
     </td>
   </tr>
+
 </table>
+
+> The GPS tracking system is implemented by creating an embedded system that can be mounted on a GCU golf cart. SofanaGPS developed an embedded system by integrating a low-cost microcontroller board such as but not limited to an Arduino. The embedded system also consists of other components including a Wi-Fi module that is compatible with the chosen microcontroller board. Wi-Fi module that has been implemented is the ESP8266. The ESP8266 allows for the microcontroller board to connect to a network such as the GCU “Lopes” Wi-Fi that is accessible throughout the campus. The Wi-Fi board would ensure network connectivity for the embedded system and would enable Team Sofana to track the GCU golf carts. Another component of the GPS tracking system is a GPS module that is responsible for retrieving location through an antenna that will calculate and retrieve gps longitude and latitude coordinates from GPS satellites.GPS module that has been implemented is the ublox NEO-6M Module that is compatible with our chosen Arduino system. 
 
 !!! NARRATIVE HEAR !!! - How does system work? Implementation overview & purpose of each module...
 *** Pictures of the actual system & 3D printed case  *** 
+
+![SofanaGPS - Circuit Diagram](https://user-images.githubusercontent.com/46502725/163845799-41b3c485-0cc4-4b7f-a5fd-c71aba36e46a.png)
+
 ---
 ## Cloud Deployment
 #### Frontend (React App) -> Heroku
 ``` 
-Heroku is a cost effective and easy to use, user-friendly cloud service provider with many free services
+Heroku is a cost effective and ease of use, user-friendly cloud service provider with many free services
 
 CI/CD Pipeline Integration
 
@@ -196,6 +219,8 @@ What is CORS?
 ---
 ## Technical Approach
 
+
+
 ---
 ## Risks & Challanges
 
@@ -203,7 +228,7 @@ What is CORS?
 - Solution
 
 ---
-## Contact
+## Contacts
 <table>
   
 </table>
