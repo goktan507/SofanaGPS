@@ -48,10 +48,47 @@ Grand Canyon University is in the heart of Phoenix Arizona, the hottest city in 
 
 ---
 ## Requirements
+      
+#### Functional Requirements
+- React App \[[Frontend](https://sofanagps.herokuapp.com)]
+  - Google's Map Implementation
+    - Initialize Map
+    - Update Map   
+    - Display Golf Carts
+- SofanaGPS-API \[[Backend](https://sofanagpsapi.azurewebsites.net/api/locations)]
+  - Communication between Hardware - Software
+- Arduino & Components \[Hardware]
+  - Network Connectivity
+    - Connect/Reconnect to LOPES Wi-Fi
+  - Portability 
+    - Ease of attaching to Golf Carts
+    - Compact in size 
 
+
+#### Non-Functional Requirements \[NFRs]
+- Availability (Hosted)
+- Storage (Database)
+- Responsiveness
+- Security (Authentication)
+       
 ---
-## Technologies
-
+## Technologies & Tools
+- React \[v17.0.2]
+  - React Google Maps API \[v2.7.0]
+- ASP .NET Core \[3.1]
+  - MongoDB.Driver \[v2.15.0]
+  - Newtonsoft.JSON \[v13.0.1]
+  - NLog \[v4.7.15]
+  - xUnit \[v2.4.1]
+  - Moq \[v4.17.2]
+- MongoDB Atlas
+- Arduino
+  - Arduino IDE \[v1.8.16]
+    - TinyGPS++ \[v2.1]
+    - ArduinoJson Library \[v5.13.3]
+    - ESP8266Wifi \[3.0.2]
+    - ESP8266HTTPClient & WifiClientSecureBear SSL
+    - base64 \[v1.2.1]
 ---
 ## Hardware Components
 
