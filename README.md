@@ -75,7 +75,7 @@ Grand Canyon University is in the heart of Phoenix Arizona, the hottest city in 
 ## Technologies & Tools
 - React \[v17.0.2]
   - React Google Maps API \[v2.7.0]
-- ASP .NET Core \[3.1]
+- ASP .NET Core 3.1
   - MongoDB.Driver \[v2.15.0]
   - Newtonsoft.JSON \[v13.0.1]
   - NLog \[v4.7.15]
