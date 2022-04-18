@@ -38,20 +38,20 @@
 </table>
 
 ## Table of Contents
-- [Introduction]()
-- [Requirements]()
-  - [Functional Requirements]()
-  - [Non-Functional Requirements \[NFRs\]]()
-- [Technologies & Tools]()
-- [Hardware Components]()
-- [Cloud Deployment]()
-  - [Frontend \[React App\] -> Heroku]()
-  - [Backend \[API\] -> Azure]()
-  - [Cross-Origin Resource Sharing \[CORS\]]()
-  - [Monitoring]()
-- [Technical Approach]()
-- [Risks & Challanges]()
-- [Contacts]()
+- [Introduction](https://github.com/goktan507/SofanaGPS/blob/main/README.md#introduction)
+- [Requirements](https://github.com/goktan507/SofanaGPS/blob/main/README.md#requirements)
+  - [Functional Requirements](https://github.com/goktan507/SofanaGPS/blob/main/README.md#functional-requirements)
+  - [Non-Functional Requirements \[NFRs\]](https://github.com/goktan507/SofanaGPS/blob/main/README.md#non-functional-requirements-nfrs)
+- [Technologies & Tools](https://github.com/goktan507/SofanaGPS/blob/main/README.md#technologies--tools)
+- [Hardware Components](https://github.com/goktan507/SofanaGPS/blob/main/README.md#hardware-components)
+- [Cloud Deployment](https://github.com/goktan507/SofanaGPS/blob/main/README.md#cloud-deployment)
+  - [Frontend \[React App\] -> Heroku](https://github.com/goktan507/SofanaGPS/blob/main/README.md#frontend-react-app---heroku)
+  - [Backend \[API\] -> Azure](https://github.com/goktan507/SofanaGPS/blob/main/README.md#backend-api---azure)
+  - [Cross-Origin Resource Sharing \[CORS\]](https://github.com/goktan507/SofanaGPS/blob/main/README.md#cross-origin-resource-sharing-cors)
+  - [Monitoring](https://github.com/goktan507/SofanaGPS/blob/main/README.md#monitoring)
+- [Technical Approach](https://github.com/goktan507/SofanaGPS/blob/main/README.md#technical-approach)
+- [Risks & Challanges](https://github.com/goktan507/SofanaGPS/blob/main/README.md#risks--challanges)
+- [Contacts](https://github.com/goktan507/SofanaGPS/blob/main/README.md#contacts)
 
 
 #### Introduction
