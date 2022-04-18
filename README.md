@@ -41,13 +41,13 @@
 - [Introduction]()
 - [Requirements]()
   - [Functional Requirements]()
-  - [Non-Functional Requirements \[NFRs]]()
+  - [Non-Functional Requirements \[NFRs\]]()
 - [Technologies & Tools]()
 - [Hardware Components]()
 - [Cloud Deployment]()
-  - [Frontend (React App) -> Heroku]()
-  - [Backend (API) -> Azure]()
-  - [Cross-Origin Resource Sharing (CORS)]()
+  - [Frontend \[React App\] -> Heroku]()
+  - [Backend \[API\] -> Azure]()
+  - [Cross-Origin Resource Sharing \[CORS\]]()
   - [Monitoring]()
 - [Technical Approach]()
 - [Risks & Challanges]()
@@ -190,7 +190,7 @@
 
 ---
 ## Cloud Deployment
-#### Frontend (React App) -> Heroku
+#### Frontend \[React App\] -> Heroku
 ``` 
 Heroku is a cost effective and ease of use, user-friendly cloud service provider with many free services
 
@@ -202,11 +202,11 @@ Auto Deployment through GitHub Repository
 
 ![Auto Deployment](https://user-images.githubusercontent.com/46502725/163753272-ab3e5147-db77-42de-b8d4-9044010f4035.png)
 
-#### Backend (API) -> Azure
+#### Backend \[API\] -> Azure
 
  *** Similar display for Azure implementation on backend - used services etc. ***
 
-#### Cross-Origin Resource Sharing (CORS) 
+#### Cross-Origin Resource Sharing \[CORS\]
 
 What is CORS?
 > CORS is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. In our case, because we are using separate backend and frontend technologies and hosted them separately on different cloud service providers, we are accessing each site through different ports which requires use of CORS to be enabled. 
