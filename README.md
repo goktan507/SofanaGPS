@@ -15,9 +15,9 @@
         <td align="center" colspan=10><h3>Track Golf Carts on GCU Campus</h3></td>
   </tr>
   <tr>
-    <td colspan=3><img width="250px" height="250px" src="https://user-images.githubusercontent.com/46502725/163734875-f011ef1d-7571-4269-8a33-b21253983285.png" alt="SofanaGPS LOGO"></td>
+    <td colspan=3><img width="200px" height="200px" src="https://user-images.githubusercontent.com/46502725/163734875-f011ef1d-7571-4269-8a33-b21253983285.png" alt="SofanaGPS LOGO"></td>
     <td colspan=4 align="center"><h1>SofanaGPS Project Portfolio</h1></td>
-    <td colspan=3><img width="250px" height="250px" src="https://user-images.githubusercontent.com/46502725/163734875-f011ef1d-7571-4269-8a33-b21253983285.png" alt="SofanaGPS LOGO"></td>
+    <td colspan=3><img width="200px" height="200px" src="https://user-images.githubusercontent.com/46502725/163734875-f011ef1d-7571-4269-8a33-b21253983285.png" alt="SofanaGPS LOGO"></td>
   </tr>
   <tr>
     <td colspan=5 align="center"><h3>Safa Bayraktar</h3></td>
@@ -262,18 +262,18 @@ SofanaGPS API has developed by using OOP and a more lightweight N-Layer design. 
 The two clients that are consuming the SofanaGPS API are the SofanaGPS Embedded System (more specifically the ESP8266 board) and the React Web App. Each client will need to provide a username and password to access the database since SofanaGPS API has implemented an API security through basic auth. 
 
 **Complete List of Diagrams & Designs**
-- [High Level Solution]()
-- [Physical Architecture Diagram]()
-- [Embedded System Logical Diagram]()
-- [Circuit Diagram]()
-- [Logical High Level Diagram]()
-- [API - Logical High Level Diagram]()
-- [Logical Solution Diagram]()
-- [Flowcharts]()
-- [Software Component Diagram]()
-- [Sitemap]()
-- [API - UML Diagram]()
-- [Database - ER Diagram]()
+- [High Level Solution](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/Capstone%20-%20High%20Level%20Solution.png)
+- [Physical Architecture Diagram](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20-%20Physical%20Architecture%20Diagram.png)
+- [Embedded System Logical Diagram](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20-%20Embedded%20System%20Logical%20Diagram%20.png)
+- [Circuit Diagram](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20-%20Circuit%20Diagram.png)
+- [Logical High Level Diagram](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/Presentation%20Logical%20High%20Level.png)
+- [API - Logical High Level Diagram](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20API%20-%20Logical%20Diagram%20.png)
+- [Logical Solution Diagram](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20-%20Logical%20Solution%20Diagram.png)
+- [Flowcharts](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20Flowchart.png)
+- [Software Component Diagram](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20-%20Software%20Component%20Diagram.png)
+- [Sitemap](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20Sitemap.png)
+- [API - UML Diagram](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20API%20-%20UML%20Diagram%20.png)
+- [Database - ER Diagram](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPSDb%20-%20ER%20Diagram_DDL%20.png)
 
 ---
 ## Risks & Challanges
