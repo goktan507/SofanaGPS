@@ -195,7 +195,6 @@
   </tr>
 </table>
 
-!!! NARRATIVE HEAR !!! - How does system work? Implementation overview & purpose of each module...
 *** Pictures of the actual system & 3D printed case  *** 
 
 ---
