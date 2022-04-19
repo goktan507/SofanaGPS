@@ -215,7 +215,15 @@ What is CORS?
 
 #### Monitoring
 
-*** UpTimeRobot Screenshot once it monitors for a while ***
+![UpTimeRobot](https://user-images.githubusercontent.com/46502725/163921127-dcbd2c5b-96d8-4be2-a1b8-e54b8d3b3ed2.png)
+
+> Team Sofana is aiming to have the site up and running for 99% of the time out of maintenance time. Due to the purpose and the shifts for golf carts on campus limits the required time to have frontend to be available. Daily the site will be available between 8-12 hours and will be turned to maintenance due to resting host servers and not spending free dynos/credits for no reason.
+
+**Benefits**
+- Instant notification when site goes down
+- Monitoring daily, weekly, and monthly uptime of the site
+- Logging the exact timestamp of downtime for us
+
 ---
 ## Technical Approach
 
