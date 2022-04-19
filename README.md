@@ -183,10 +183,20 @@
 
 > The GPS tracking system is implemented by creating an embedded system that can be mounted on a GCU golf cart. SofanaGPS developed an embedded system by integrating a low-cost microcontroller board such as but not limited to an Arduino. The embedded system also consists of other components including a Wi-Fi module that is compatible with the chosen microcontroller board. Wi-Fi module that has been implemented is the ESP8266. The ESP8266 allows for the microcontroller board to connect to a network such as the GCU “Lopes” Wi-Fi that is accessible throughout the campus. The Wi-Fi board would ensure network connectivity for the embedded system and would enable Team Sofana to track the GCU golf carts. Another component of the GPS tracking system is a GPS module that is responsible for retrieving location through an antenna that will calculate and retrieve gps longitude and latitude coordinates from GPS satellites.GPS module that has been implemented is the ublox NEO-6M Module that is compatible with our chosen Arduino system. 
 
+<table>
+  <tr>
+    <td>
+      <img src="https://user-images.githubusercontent.com/46502725/163944571-526572ef-12e6-4a3a-b03a-f408d9118cba.png"/>
+    </td>
+    <td>
+      <img width="350" src="https://user-images.githubusercontent.com/46502725/163945396-89c4e1bd-f092-4ad1-a586-e80a1d55c706.png"/>
+      <img width="350" src="https://user-images.githubusercontent.com/46502725/163945486-1e2a913e-dbae-4a02-b9f5-c13310f4c506.png"/>
+    </td>
+  </tr>
+</table>
+
 !!! NARRATIVE HEAR !!! - How does system work? Implementation overview & purpose of each module...
 *** Pictures of the actual system & 3D printed case  *** 
-
-![SofanaGPS - Circuit Diagram](https://user-images.githubusercontent.com/46502725/163845799-41b3c485-0cc4-4b7f-a5fd-c71aba36e46a.png)
 
 ---
 ## Cloud Deployment
@@ -227,7 +237,17 @@ What is CORS?
 ---
 ## Technical Approach
 
+![SofanaGPS - High Level Solution](https://user-images.githubusercontent.com/46502725/163948106-3a236def-567f-4a2c-8ec2-960cf6352a15.png)
 
+SofanaGPS consists of separate components that will interact with each other and work as a complete system. For example, Team Sofana has created components for the user-facing map web application, back-end API to persist and retrieve gps locations, and an embedded system to track the GCU golf carts.  
+
+The system is highly depended on internet connectivitiy. To ensure connectivity between the GPS tracking embedded system and the web application, Team Sofana has created an API using .NET Core that handles the back-end functionality of the web application. This back-end is also consists of a database that collects the location data (longitude & latitude) using a NoSQL database such as MongoDB. The back-end API sends a request consisting of the location information to the front-end component of the web application. 
+
+The front-end portion of the system is composed of the user-facing web application that is created using React. This web application consists of a Map UI component that is being updated frequently by the API in the back-end. GPS coordinates are being generated on a frequent basis by the GPS Module on the GPS system which in return flows through to the back-end API and updates the Map UI. To display an accurate and clean map, SofanaGPS leveraged the help of the React Google Map's API that is used to display a close-up map of the GCU campus with the location of the GCU golf cart marked. To ensure accessibility of the web app and GPS tracking service, both the back-end of the application and front-end are hosted to cloud service providers. The front-end web application is currently deployed and hosted on Heroku and the back-end .Net Core app is to Azure. 
+
+![SofanaGPS - Physical Architecture Diagram](https://user-images.githubusercontent.com/46502725/163948435-71f7d148-6f78-4575-9c59-0731e3ad2c2d.png)
+
+The Physical Solution Diagram shows specifications of the embedded system components that are being used in the SofanaGPS Project. The SofanaGPS has three embedded modules which are Arduino UNO R3, NEO - 6M GPS, and ESP8266 - WiFi. Arduino UNO R3 provides the necessary power to run GPS and WiFi modules and itself runs on a battery. Sofana Team designed and completely developed the web application which displays a map with all the golf carts on the GCU campus, this process requires receiving GPS locations instantly to provide a smooth user experience. ESP8266 - WiFi module sends an HTTP request to the SofanaAPI with the GPS location that was received from satellites by the GPS module. Once the HTTP request is received by the SofanaAPI, the location data is being stored in the SofanaGPSDb with the current time of the day, at the same time, it is being sent to the frontend of the project which is a React application, then the locations of the golf carts can be displayed on the map view. Throughout the entire process, the application status is being monitored by team Sofana using UpTimeRobot to avoid possible down status during day time. When everything is up and running, the users -GCU Students- can access to the web application through their devices of choice, the web application is responsive.
 
 ---
 ## Risks & Challanges
