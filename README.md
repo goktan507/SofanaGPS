@@ -261,7 +261,19 @@ SofanaGPS API has developed by using OOP and a more lightweight N-Layer design. 
 > The last piece of the SofanaGPS API is the ‘LocationEntity’ which is responsible of holding the data in the application as an object to move up and down the layers and in and from the database. GPS coordinates take a place in the form of the ‘LocationEntity’ inside the SofanaGPS API application and as JSON outside. This means that JSON serialization can be used to convert gps coordinates from JSON to a ‘LocationEntity’ and vice versa. 
 The two clients that are consuming the SofanaGPS API are the SofanaGPS Embedded System (more specifically the ESP8266 board) and the React Web App. Each client will need to provide a username and password to access the database since SofanaGPS API has implemented an API security through basic auth. 
 
-
+**Complete List of Diagrams & Designs**
+- [High Level Solution]()
+- [Physical Architecture Diagram]()
+- [Embedded System Logical Diagram]()
+- [Circuit Diagram]()
+- [Logical High Level Diagram]()
+- [API - Logical High Level Diagram]()
+- [Logical Solution Diagram]()
+- [Flowcharts]()
+- [Software Component Diagram]()
+- [Sitemap]()
+- [API - UML Diagram]()
+- [Database - ER Diagram]()
 
 ---
 ## Risks & Challanges
