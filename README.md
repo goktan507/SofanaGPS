@@ -209,12 +209,11 @@
   </tr>
   <tr>
     <td>
+      <h5>3D Printed Board</h5>
       <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-board.jpg?raw=true"/>
     </td>
   </tr>
 </table>
-
-
 
 ---
 ## Cloud Deployment
