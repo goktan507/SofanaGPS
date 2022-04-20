@@ -298,15 +298,18 @@ What is CORS?
 ---
 ## Risks & Challanges
 
-###Challenges 
+### Challenges 
 <ul>
   <li>Avilability of Lopes Wifi Network throughout campus</li>
   <li>Scaling - limited computing resources for cloud service providers/li>
   <li>Hardware vs software debugging</li>
   <li>Learning new technologies</li>
 </ul>
-- Issues
-- Solution
+
+### Risks
+<ul>
+  <li>7-8 seconds tracking delay</li>
+</ul>
 
 ---
 ## Contacts
