@@ -230,8 +230,13 @@ Auto Deployment through GitHub Repository
 ![Auto Deployment](https://user-images.githubusercontent.com/46502725/163753272-ab3e5147-db77-42de-b8d4-9044010f4035.png)
 
 #### Backend \[API\] -> Azure
+``` 
+Azure a cloud computing service operated by Microsoft for application management via Microsoft-managed data centers.
 
- *** Similar display for Azure implementation on backend - used services etc. ***
+Used App Service to deploy API 
+
+Manual deployment directly through Visual Studio 
+```
 
 #### Cross-Origin Resource Sharing \[CORS\]
 
