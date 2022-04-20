@@ -199,11 +199,11 @@
 <table>
   <tr>
     <td>
-      ##### Breadboard Prototype
+      <h5>Breadboard Prototype</h5>
       <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-proto.jpeg?raw=true"/>
     </td>
     <td>
-      ##### GPS System with 9.6V Power
+      <h5>GPS System with 9.6V Power</h5>
       <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system.jpeg?raw=true"/>
     </td>
 </table>
