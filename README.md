@@ -198,8 +198,8 @@
 <table>
   <tr>
     <td>
-      <img width="350" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-proto.png?raw=true"/>
-      <img width="350" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system.png?raw=true"/>
+      <img width="350" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-proto.jpeg?raw=true"/>
+      <img width="350" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system.jpeg?raw=true"/>
   </td>
   </tr>
 </table>
