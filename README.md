@@ -206,6 +206,12 @@
       <h5>GPS System with 9.6V Power</h5>
       <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system.jpeg?raw=true"/>
     </td>
+  </tr>
+  <tr>
+    <td>
+      <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-board.jpg?raw=true"/>
+    </td>
+  </tr>
 </table>
 
 
