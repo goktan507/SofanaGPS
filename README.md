@@ -259,7 +259,7 @@ What is CORS?
 ---
 ## Technical Approach
 
-![SofanaGPS - High Level Solution](https://user-images.githubusercontent.com/46502725/163948106-3a236def-567f-4a2c-8ec2-960cf6352a15.png)
+![SofanaGPS - High Level Solution](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20API%20-%20Logical%20Diagram%20.png?raw=true)
 
 > SofanaGPS consists of separate components that will interact with each other and work as a complete system. For example, Team Sofana has created components for the user-facing map web application, back-end API to persist and retrieve gps locations, and an embedded system to track the GCU golf carts.  
 
