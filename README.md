@@ -194,10 +194,16 @@
     </td>
   </tr>
 </table>
-
-
+<table>
+  <tr>
+    <td>
       <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-proto.jpeg?raw=true"/>
+    </td>
+    <td>
       <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system.jpeg?raw=true"/>
+    </td>
+</table>
+
 
 
 *** Pictures of the actual system & 3D printed case  *** 
