@@ -312,6 +312,9 @@ What is CORS?
 ---
 ## Contacts
 <table>
-  
+  <tr>
+    <td><h3>[Safa Bayraktar](https://www.linkedin.com/in/safabayraktar/)</h3></td>
+    <td><h3>[Ana Sanchez Sanchez](https://www.linkedin.com/in/anasanchez4/)</h3></td>
+  </tr>    
 </table>
 
