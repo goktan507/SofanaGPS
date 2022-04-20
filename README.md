@@ -195,14 +195,10 @@
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td>
-      <img width="400" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-proto.jpeg?raw=true"/>
-      <img width="400" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system.jpeg?raw=true"/>
-  </td>
-  </tr>
-</table>
+
+      <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-proto.jpeg?raw=true"/>
+      <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system.jpeg?raw=true"/>
+
 
 *** Pictures of the actual system & 3D printed case  *** 
 
