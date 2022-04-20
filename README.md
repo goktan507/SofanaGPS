@@ -239,10 +239,9 @@ Manual deployment directly through Visual Studio
 #### Cross-Origin Resource Sharing \[CORS\]
 
 What is CORS?
-> CORS is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. In our case, because we are using separate backend and frontend technologies and hosted them separately on different cloud service providers, we are accessing each site through different ports which requires use of CORS to be enabled. 
+> CORS is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. In our case, because we are using separate backend and frontend technologies and hosted them separately on different cloud service providers, we are accessing each site through different ports which requires use of CORS to be enabled. CORS was enabled for all traffic in order for backend API and frontend to communicate. Securing our back-end API with basic authentication ensured we blocked SofanaGPS's API and data from ourside exposure. 
 
 ![CORS](https://github.com/goktan507/SofanaGPS/blob/main/images/CORS.png?raw=true)
-> CORS was enabled for all traffic in order for backend API and frontend to communicate. Securing our back-end API with basic authentication ensured we blocked SofanaGPS's API and data from ourside exposure. 
 
 #### Monitoring
 
