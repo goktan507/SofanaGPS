@@ -259,11 +259,11 @@ What is CORS?
 ---
 ## Technical Approach
 
-![SofanaGPS - High Level Solution](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/SofanaGPS%20API%20-%20Logical%20Diagram%20.png?raw=true)
+![SofanaGPS - High Level Solution](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/Presentation%20Logical%20High%20Level.png?raw=true)
 
 > SofanaGPS consists of separate components that will interact with each other and work as a complete system. For example, Team Sofana has created components for the user-facing map web application, back-end API to persist and retrieve gps locations, and an embedded system to track the GCU golf carts.  
 
-> The system is highly depended on internet connectivitiy. To ensure connectivity between the GPS tracking embedded system and the web application, Team Sofana has created an API using .NET Core that handles the back-end functionality of the web application. This back-end is also consists of a database that collects the location data (longitude & latitude) using a NoSQL database such as MongoDB. The back-end API sends a request consisting of the location information to the front-end component of the web application. 
+> The system is highly depended on internet connectivitiy. To ensure connectivity between the GPS tracking embedded system and the web application, Team Sofana has created an API using .NET Core that handles the back-end functionality of the web application. This back-end is also consists of a database that collects the location data (longitude & latitude) using a NoSQL database - MongoDB. The back-end API sends a request consisting of the location information to the front-end component of the web application. 
 
 > The front-end portion of the system is composed of the user-facing web application that is created using React. This web application consists of a Map UI component that is being updated frequently by the API in the back-end. GPS coordinates are being generated on a frequent basis by the GPS Module on the GPS system which in return flows through to the back-end API and updates the Map UI. To display an accurate and clean map, SofanaGPS leveraged the help of the React Google Map's API that is used to display a close-up map of the GCU campus with the location of the GCU golf cart marked. To ensure accessibility of the web app and GPS tracking service, both the back-end of the application and front-end are hosted to cloud service providers. The front-end web application is currently deployed and hosted on Heroku and the back-end .Net Core app is to Azure. 
 
@@ -273,15 +273,13 @@ What is CORS?
 
 ![SofanaGPS API - Logical Diagram ](https://user-images.githubusercontent.com/46502725/163951316-8c5a4034-e02e-4ed7-8704-0f6420552642.png)
 
-> The Logical Architecture Diagram for SofanaGPS API provides the details of the overall functionality and each piece of the API. SofanaGPS API is developed with .NET Core 3.1 and hosted on Azure. The reason for using .NET Core is due to the fact that .NET Core provides powerful external libraries and frameworks that work perfect together for creating an API. For example, the Swashbuckle library for .Net Core is a library for generating Swagger documentation by defining the API within the code in the controller via method annotations. This is just one example of how external libraries aid in the development of an API in .NET Core. 
-SofanaGPS API has developed by using OOP and a more lightweight N-Layer design. This is because SofanaGPS leverages a ‘LocationService’ that acts as both a business layer and data access layer. SofanaGPS does not have business logic due to the fact that SofanaGPS API is simply an API that acts as a pass-through for data from the SofanaGPS Embedded System and the SofanaGPS database. Team Sofana did not see the rationale for creating a business layer if there would not exist any business logic. 
+> The Logical Architecture Diagram for SofanaGPS API provides the details of the overall functionality and each piece of the API. SofanaGPS API is developed with .NET Core 3.1 and hosted on Azure. The reason for using .NET Core is due to the fact that .NET Core provides powerful external libraries and frameworks that work perfect together for creating an API. SofanaGPS API has developed by using OOP and a more lightweight N-Layer design. This is because SofanaGPS leverages a ‘LocationService’ that acts as both a business layer and data access layer. SofanaGPS does not have business logic due to the fact that SofanaGPS API is simply an API that acts as a pass-through for data from the SofanaGPS Embedded System and the SofanaGPS database. Team Sofana did not see the rationale for creating a business layer if there would not exist any business logic. 
 
 > The SofanaGPS API application has a controller (LocationController) that exposes all the API endpoints and calls the ‘LocationService’ for persisting or grabbing data. ‘LocationService’ is implemented in the ‘LocationController’ through constructor dependency injection. Endpoints in the ‘LocationController’ are secured with Basic Auth by creating a ‘BasicAuthAttribute’ using a custom basic auth filter. The ‘BasicAuthFilter” acts as the filter that authenticates a user. This class leverages a “UserService'' that acts as the data access and business service for authentication. User information is parsed to a ‘UserEntity’ model.
 
 > Like mentioned earlier, the ‘LocationService’ acts as the data access layer of the application so it utilizes the .NET Core MongoDB driver to read and write to the database. ‘LocationService’ is implemented as a singleton since the API will only need one implementation of ‘LocationService’. Additionally, the ‘LocationService’ will implement a Data Access Object (SofanaGPSDbSettingsDAO) that encapsulates all the properties and data needed for the MongoDB driver to connect to the database. This Data Access Object is implemented in the ‘LocationService’ through constructor dependency injection via an interface that has developed for the Data Access Object. 
 
-> The last piece of the SofanaGPS API is the ‘LocationEntity’ which is responsible of holding the data in the application as an object to move up and down the layers and in and from the database. GPS coordinates take a place in the form of the ‘LocationEntity’ inside the SofanaGPS API application and as JSON outside. This means that JSON serialization can be used to convert gps coordinates from JSON to a ‘LocationEntity’ and vice versa. 
-The two clients that are consuming the SofanaGPS API are the SofanaGPS Embedded System (more specifically the ESP8266 board) and the React Web App. Each client will need to provide a username and password to access the database since SofanaGPS API has implemented an API security through basic auth. 
+> The last piece of the SofanaGPS API is the ‘LocationEntity’ which is responsible of holding the data in the application as an object to move up and down the layers and in and from the database. GPS coordinates take a place in the form of the ‘LocationEntity’ inside the SofanaGPS API application and as JSON outside. This means that JSON serialization can be used to convert gps coordinates from JSON to a ‘LocationEntity’ and vice versa. The two clients that are consuming the SofanaGPS API are the SofanaGPS Embedded System (more specifically the ESP8266 board) and the React Web App. Each client will need to provide a username and password to access the database since SofanaGPS API has implemented an API security through basic auth. 
 
 **Complete List of Diagrams & Designs**
 - [High Level Solution](https://github.com/goktan507/SofanaGPS/blob/main/Diagrams/Capstone%20-%20High%20Level%20Solution.png)
@@ -300,6 +298,13 @@ The two clients that are consuming the SofanaGPS API are the SofanaGPS Embedded 
 ---
 ## Risks & Challanges
 
+###Challenges 
+<ul>
+  <li>Avilability of Lopes Wifi Network throughout campus</li>
+  <li>Scaling - limited computing resources for cloud service providers/li>
+  <li>Hardware vs software debugging</li>
+  <li>Learning new technologies</li>
+</ul>
 - Issues
 - Solution
 
