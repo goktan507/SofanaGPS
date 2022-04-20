@@ -195,6 +195,15 @@
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td>
+      <img width="350" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-proto.png?raw=true"/>
+      <img width="350" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system.png?raw=true"/>
+  </td>
+  </tr>
+</table>
+
 *** Pictures of the actual system & 3D printed case  *** 
 
 ---
