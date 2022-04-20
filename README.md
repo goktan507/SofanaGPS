@@ -126,7 +126,7 @@
 <table>
   <tr align="center">
     <td>
-      <img width="300" src="https://user-images.githubusercontent.com/46502725/163749686-a5e71c2d-cbf6-4fda-848e-66aa401ac7ce.png"/>
+      <img width="300" src="https://github.com/goktan507/SofanaGPS/blob/main/images/NET_Core_Logo.svg.png?raw=true"/>
     </td>
     <td>
       <img width="300" src="https://user-images.githubusercontent.com/46502725/163749726-8671e0c9-8f23-498a-ae26-57d025012d5f.png"/>
