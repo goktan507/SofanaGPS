@@ -194,19 +194,21 @@
     </td>
   </tr>
 </table>
+
+#### Interfacing Components
 <table>
   <tr>
     <td>
+      ##### Breadboard Prototype
       <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system-proto.jpeg?raw=true"/>
     </td>
     <td>
+      ##### GPS System with 9.6V Power
       <img width="500" src="https://github.com/goktan507/SofanaGPS/blob/main/images/gps-system.jpeg?raw=true"/>
     </td>
 </table>
 
 
-
-*** Pictures of the actual system & 3D printed case  *** 
 
 ---
 ## Cloud Deployment
