@@ -61,8 +61,6 @@
 [![SofanaGPS Project Functional Demonstration](https://user-images.githubusercontent.com/46502725/163736787-685457fb-4dfe-4a56-917d-7cebd68269fa.png)
 ](https://www.youtube.com/watch?v=i2qrb46bWTI)
 
-
-
 ---
 ## Requirements
       
@@ -243,7 +241,7 @@ Manual deployment directly through Visual Studio
 What is CORS?
 > CORS is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. In our case, because we are using separate backend and frontend technologies and hosted them separately on different cloud service providers, we are accessing each site through different ports which requires use of CORS to be enabled. 
 
-*** SCREENSHOT OF AZURE CORS ENABLED ***
+![CORS](https://github.com/goktan507/SofanaGPS/blob/main/images/CORS.png?raw=true)
 
 #### Monitoring
 
