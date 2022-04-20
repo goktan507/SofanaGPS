@@ -312,8 +312,7 @@ What is CORS?
 ---
 ## Contacts
 
-
-- [Safa Bayraktar](https://www.linkedin.com/in/safabayraktar/)
-- [Ana Sanchez Sanchez](https://www.linkedin.com/in/anasanchez4/)
+- Safa Bayraktar - [LinkedIn](https://www.linkedin.com/in/safabayraktar/) - [GitHub](https://github.com/goktan507/SofanaGPS)
+- Ana Sanchez Sanchez -[LinkedIn](https://www.linkedin.com/in/anasanchez4/) - [GitHub](https://github.com/AnaOddles)
 
 
