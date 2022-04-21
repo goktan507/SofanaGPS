@@ -307,7 +307,6 @@ What is CORS?
 
 ### Risks
 <ul>
-  <li>7-8 seconds tracking delay</li>
   <li>LOPES Wi-Fi going down - System would lose internet connection</li>
 </ul>
 
